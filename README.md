@@ -1,45 +1,51 @@
-# TurtleNode.io
+# KriegersNode Krieger.wtf
 
-This repository contains the source code for the TurtleNode.io website.
+This repository contains the source code for the krieger.wtf website.
 
 It is designed to work hand in hand with the following additional service.
 
-* https://github.com/brandonlehmann/turtlecoin-api-proxy
+* https://github.com/Algersoft/kriegerrand-api-proxy
 
 ## To Use
 
-To use this site edit ``js/config.js`` to reflect your API interface or use my public API proxy.
+To use for your own crypto just change ``js/config.js`` and swap in your API info.
 
-You can then update the list of nodes to show on the site in ``js/config.js`` in the section for the nodes.
+You can then update the list of nodes in ``js/config.js`.
 
 ```javascript
 const nodes = [
-  { name: 'US-East-1', hostname: 'node-1.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-East-2', hostname: 'node-2.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-East-3', hostname: 'node-3.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-West-1', hostname: 'node-1.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'US-West-2', hostname: 'node-2.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'US-West-3', hostname: 'node-3.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'EU-AMS-1', hostname: 'node-1.ams.turtlenode.io', port: 11898, region: 'Europe' },
-  { name: 'EU-AMS-2', hostname: 'node-2.ams.turtlenode.io', port: 11898, region: 'Europe' },
-  { name: 'EU-AMS-3', hostname: 'node-3.ams.turtlenode.io', port: 11898, region: 'Europe' }
+  { name: 'US-East-1', hostname: 'node-1.nyc.krieger.wtf', port: 11898, region: 'US East' },
+  { name: 'US-East-2', hostname: 'node-2.nyc.krieger.wtf', port: 11898, region: 'US East' },
+  { name: 'US-East-3', hostname: 'node-3.nyc.krieger.wtf', port: 11898, region: 'US East' },
+  { name: 'US-West-1', hostname: 'node-1.sfo.krieger.wtf', port: 11898, region: 'US West' },
+  { name: 'US-West-2', hostname: 'node-2.sfo.krieger.wtf', port: 11898, region: 'US West' },
+  { name: 'US-West-3', hostname: 'node-3.sfo.krieger.wtf', port: 11898, region: 'US West' },
+  { name: 'EU-AMS-1', hostname: 'node-1.ams.krieger.wtf', port: 11898, region: 'Europe' },
+  { name: 'EU-AMS-2', hostname: 'node-2.ams.krieger.wtf', port: 11898, region: 'Europe' },
+  { name: 'EU-AMS-3', hostname: 'node-3.ams.krieger.wtf', port: 11898, region: 'Europe' }
 ]
 ```
 
 ## Development
 
-You can find me on the TurtleCoin discord at http://chat.turtlecoin.lol/ as @iburnmycd
+Be a super awesome supporter and host a kriegerrand node and get in contact with us to be added to the list. Our discord at http://coms.kriegerrand.com 
 
 ### Donations
 
-I'll kindly accept your donation in [TRTL] if you love this project.
+Help keep these kittens barking and spare some crypto? We accept KREGR, BTC, Dogecoin, Monero, LTC, DASH and TRTL.
 
-TRTLv1pacKFJk9QgSmzk2LJWn14JGmTKzReFLz1RgY3K9Ryn7783RDT2TretzfYdck5GMCGzXTuwKfePWQYViNs4avKpnUbrwfQ
+Kriegerrand: 
+Bitcoin:
+Litecoin:
+Monero:
+Dogecoin:
+Dash:
+Turtlecoin: TRTLv1pacKFJk9QgSmzk2LJWn14JGmTKzReFLz1RgY3K9Ryn7783RDT2TretzfYdck5GMCGzXTuwKfePWQYViNs4avKpnUbrwfQ
 
 ## License
 
 ```
 Copyright (C) 2018 Brandon Lehmann, The TurtleCoin Developers
-
+Copyright (C) 2019 AlgerSoft (Kriegerrand Developers)
 Please see the included LICENSE file for more information.
 ```
